@@ -9,9 +9,8 @@
 .logo-mario {
     width: 100%;
     max-width: 450px;
-    margin-bottom: 20px;
-    
 }
+
 
 .color-paragrafo {
     color: white;
@@ -45,8 +44,9 @@
 
 .imagem-mario-luigi {
     width: 100%;
-    max-width: 450px;
-    margin-bottom: 20px;
+    max-width: 500px;
+    height: auto;
+}
     
 }
     
@@ -86,11 +86,10 @@ video {
 .caixa-mae {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 100px;
+    justify-content: space-between;
     height: 100vh;
+    padding: 0 5%;
 }
-
 
 .link-whatsapp {
     height: 100px;
@@ -171,6 +170,28 @@ video {
     border-radius: 20px;
     transition: visibility 1s ease-in-out;
 }
+
+@media (max-width: 900px) {
+
+    .caixa-mae {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .caixa-principal {
+        width: 100%;
+    }
+
+    .imagem-mario-luigi {
+        max-width: 350px;
+        margin-top: 30px;
+    }
+
+    .header a {
+        font-size: 18px;
+    }
 
 
 
