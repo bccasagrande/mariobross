@@ -60,12 +60,17 @@ body {
 .caixa-video {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    
+    overflow: hidden;
 }
 
 video {
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mascara {
@@ -164,4 +169,5 @@ video {
     border-radius: 20px;
     transition: visibility 1s ease-in-out;
 }
+
 
