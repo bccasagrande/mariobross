@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bross</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+        <img src="./img/icon.png" alt="logo header">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+
+    </div>
+
+   <div class="caixa-mae">
+    <div class="caixa-principal">
+    <img src="./img/logo (1).png" alt="logo do mario bross" class="logo-mario">
+    <p class="color-paragrafo">Encanadores Mario e Luigi - Resolvemos Seus Problemas com Estilo!</p>
+    <p class="color-paragrafodois">Você já se encontrou em uma situação de emergência com encanamento? 
+        Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar? 
+        Não se preocupe, porque estamos aqui para salvar o dia! 
+        Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+        <button onclick="cliqueiNoBotao()" class="botao-entre-contato">PEDIR ORÇAMENTO</button>
+
+   </div>
+        <img src="./img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+   <a href="https://w.app/s8ocrt">
+    <img src="./img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="link para o whatsapp" class="link-whatsapp">
+   </a>
+
+   <form class="formulario-fale-conosco" 
+        ction="https://formcarry.com/s/tCHLYBLOr48"
+        method="POST"
+        enctype="multipart/form-data">
+    <input class="input" placeholder="Seu nome" type="text" name="nome">
+    <input class="input" placeholder="Seu telefone" type="tel" name="telefone">
+    <textarea class="textarea" placeholder="Digite seu problema aqui" name="duvidas"></textarea>
+    <button type="submit" class="pedir-orcamento">PEDIR ORÇAMENTO</button>
+   </form>
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
