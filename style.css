@@ -44,7 +44,10 @@
 }
 
 .imagem-mario-luigi {
-    height: 500px;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+    
 }
     
 body {
@@ -168,6 +171,7 @@ video {
     border-radius: 20px;
     transition: visibility 1s ease-in-out;
 }
+
 
 
 
